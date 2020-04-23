@@ -1,0 +1,29 @@
+:root {
+--font-sans-serif: Neue Haas Unica, sans-serif;
+--black: #2c2a29;
+--light-grey: #939393;
+--beige: #DED8D1;
+--pantone: #D2A273;
+--brick: #B67965;
+--white: #ffffff;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      font-family: "Neue Hass Unica", sans-serif;
+      font-weight: 300;
+      color: var(--light-grey);
+      line-height: 1.4;
+      font-size: 1.25em;
+  }
