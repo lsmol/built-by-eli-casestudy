@@ -27,3 +27,38 @@ html {
       line-height: 1.4;
       font-size: 1.25em;
   }
+h1, h2, h3, h4 {
+  font-weight: 300;
+  color: var(--black);
+}
+
+.h1 {
+  background: url(https://www.builtbyeli.com.au/wp-content/uploads/sites/3/2019/09/Built_by_eli_home_new_builds_@2x-1-3520x1790.jpg);
+  color: white;
+}
+
+h2 {
+  font-size: 2.075em;
+}
+h4 {
+  font-size: 1.35em;
+}
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  .component img {
+    max-width: initial;
+  }
+
+  .component__img {
+    border: 1px solid #ccc;
+    overflow-x: auto;
+  }
+
+  .component__code {
+    border: 1px solid #ccc;
+  }
+
+  
