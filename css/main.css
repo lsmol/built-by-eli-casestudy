@@ -27,6 +27,8 @@ html {
       line-height: 1.4;
       font-size: 1.25em;
   }
+
+  /*headings */
 h1, h2, h3, h4 {
   font-weight: 300;
   color: var(--black);
@@ -44,6 +46,8 @@ h4 {
   font-size: 1.35em;
 }
 
+/*images */ 
+
   img {
     max-width: 100%;
     display: block;
@@ -60,5 +64,21 @@ h4 {
   .component__code {
     border: 1px solid #ccc;
   }
+
+  a {
+    border: 1px solid red;
+    text-decoration: none;
+    color: var(--light-grey); 
+    font-size: 1em;
+    border-bottom: 1px solid var(--light-grey);
+    padding: 10px 0;
+    text-align: center;
+  }
+ a:hover {
+    color: var(--black);
+    border-bottom: 1px solid var(--black);
+  }
+
+  
 
   
