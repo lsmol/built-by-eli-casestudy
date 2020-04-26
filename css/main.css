@@ -254,7 +254,7 @@ a:hover {
 /* main section starts here */
 
 .black {
-	color: #000;
+	color: var(--black);
 	margin-bottom: .4em;
 	font-weight: 300;
 }
@@ -262,4 +262,12 @@ a:hover {
 .grey {
 	color: #939393;
 	font-weight: 300;
+}
+
+/* grid*/
+.component__code--art {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
