@@ -96,4 +96,88 @@ a:hover {
   color: var(--black);
 }
 
+/*header */
 
+.component__code-top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--brick);
+ font-size: 1.3em;
+ margin-top: 1em;
+ color: var(--black);
+}
+
+
+
+.button-bun {
+ display: inline;
+ padding: 0;
+ border: 0.1rem solid var(--black);
+ border-right: none;
+ border-left: none; 
+}
+
+.button-bun a {
+  padding: 0;
+}
+
+
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;  
+}
+.nav-list a {
+  display: flex;
+  flex: 1;
+  padding: 0;
+  color: var(--black);
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.button-list {
+  border: none;
+  background: transparent;
+}
+
+.button-list:hover {
+  border-bottom: 2px solid var(--black);
+}
+
+.logo {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.logo a {
+  color: var(--black);
+}
+
+.quote-button {
+  display: inline-block;
+  background: transparent;
+  height: 60px;
+  border: 1px solid var(--black);
+  border-radius: 1.2em;  
+  padding: 0 1.5em;
+}
+
+.quote-button a {
+  color: var(--black);
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;  
+}
+
+.quote-button:hover {
+  background: var(--black);
+}
+
+.quote-button a:hover {
+  color: white;
+}
