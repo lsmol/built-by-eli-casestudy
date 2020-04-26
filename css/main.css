@@ -248,9 +248,18 @@ a:hover {
 .hero-content {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
- 
+  align-items: flex-end; 
 }
 
+/* main section starts here */
 
+.black {
+	color: #000;
+	margin-bottom: .4em;
+	font-weight: 300;
+}
 
+.grey {
+	color: #939393;
+	font-weight: 300;
+}
