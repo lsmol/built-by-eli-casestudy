@@ -266,7 +266,6 @@ a:hover {
 
 /* grid*/
 .component__code--art {
-  border: 1px solid red;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
