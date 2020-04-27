@@ -28,6 +28,16 @@ html {
       font-size: 1.25em;
   }
 
+  .component {
+    margin-bottom: 6rem;
+    position: relative;
+  }
+
+  .container {
+    max-width: 75rem;
+    margin: auto;
+  }
+
   /*headings */
 h1, h2, h3, h4 {
   font-weight: 300;
@@ -52,8 +62,11 @@ h4 {
     max-width: 100%;
     display: block;
   }
-  .component img {
-    max-width: initial;
+  .component__img {
+    border: 1px solid #ccc;
+  margin: 0;
+  overflow-x: auto;
+  position: relative;
   }
 
   .component__img {
@@ -269,4 +282,5 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  
 }
