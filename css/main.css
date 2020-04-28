@@ -77,6 +77,7 @@ h4 {
 
   .component__code {
     border: 1px solid #ccc;
+    padding: 1rem;
   }
 
   .artlink {
@@ -238,6 +239,7 @@ a:hover {
   justify-content: space-between;
   flex: 1;
   align-items: flex-end;
+  margin-top: 2rem;
 }
 
 .hero__background {
