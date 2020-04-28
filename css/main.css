@@ -290,3 +290,24 @@ a:hover {
   position: relative;
   padding: 1.5rem;  
 }
+
+/*recent project section */
+
+.action-link {
+  --arrow-width: 3.25rem;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-sans-serif);
+  font-size: 1.25rem;
+  color: var(--black);
+  text-decoration: none;
+}
+.action-link:before {
+  content: "";
+  transform-origin: center left;
+  transition: all 0.3s;
+  display: block;
+  width: var(--arrow-width);
+  height: 1.5rem;
+  background: url("../img/arrow.svg") no-repeat left center;
+}
