@@ -323,8 +323,27 @@ a:hover {
 
 .myslides {
   display: center;
+  padding: 0;
+  margin: 0;
 }
-/* The dots/bullets/indicators */
+
+.blockquote {
+  padding: 1rem;
+}
+
+.citation {
+  padding: 1rem;
+}
+.citation > * {
+  font-size: 0.8em;
+ display: block;
+ line-height: 0.7em;
+}
+.citation .text {
+  color: var(--black);
+}
+
+/* The bullets/indicators */
 .dot {
   cursor: pointer;
   /*
@@ -340,9 +359,6 @@ a:hover {
   display: inline-block;
   background: #000;
   opacity: 0.2;
-
-
-
 }
 
 .active, .dot:hover {
