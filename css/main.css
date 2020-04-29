@@ -384,17 +384,28 @@ a:hover {
 
 .contact > * {
   grid-column: span 3;
-  justify-content: center;
 } 
 
 .contact__text {
   background: var(--pantone);
-  align-content: center;
-  
-
 }
 
 .contact__text > * {
-  align-content: center;
+  border: 1px solid red;
   color: var(--black);
+} 
+
+.contact__img {
+  border: 1px solid blue;
+  background: palegreen;
 }
+/*
+.contact__img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  object-fit: cover;
+} */
