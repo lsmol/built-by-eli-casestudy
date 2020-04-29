@@ -376,8 +376,25 @@ a:hover {
 }
 
 /*Contact Section */
+
 .contact {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
--ms-grid-column-span: 3;
+}
+
+.contact > * {
+  grid-column: span 3;
+  justify-content: center;
+} 
+
+.contact__text {
+  background: var(--pantone);
+  align-content: center;
+  
+
+}
+
+.contact__text > * {
+  align-content: center;
+  color: var(--black);
 }
