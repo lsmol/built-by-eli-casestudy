@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Componrnents | Buil by Eli</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/gfp8dgk.css">
 
     <link href="../../fonts/fontawesome/css/all.css" rel="stylesheet">
@@ -409,6 +410,100 @@
 
         </article>
 
+        <h2>Testimonials Section</h2>
+
+        <article class="component">
+            <h3 class="component__name">Testimonials</h3>
+            <div class="component__img">
+                <img srcset="img/testimonials.png 2x" src="img/testimonials.png.png" alt="body copy" />
+            </div>
+
+            <div class="component__code slide-container">
+
+                <div class="myslides fade">
+                    <div class="blockquote">
+                        "Eli was, at all times, honest, reliable and communicative to ensure the best outcome
+                        for
+                        the
+                        job at hand. It has been a pleasure to have worked with someone who has such a passion
+                        to
+                        build to the standard he has".
+                    </div>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                    <div class="citation">
+                        <p>Director</p>
+                        <a href="#!">New Pave Asphalt Pty Ltd</a>
+                    </div>
+                </div>
+
+                <div class="myslides fade">
+                    <div class="blockquote">
+                        "Our faith in Eli and his tem was not misplaced.The experience was made all the better by his
+                        friendly, trust worthy and accomodating manner"
+                    </div>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                    <div class="citation">
+                        <p>Stuart and Tina</p>
+                        <a href="#!">New Pave Hamilton South</a>
+                    </div>
+                </div>
+
+                <div class="myslides fade">
+                    <div class="blockquote">
+                        "Eli and his team were an absolute pleasure to work with from the very beginning of the
+                        building process right up to completion. Jan and I are delighted with the impressive result
+                        that Eli and his team helped us to achieve."
+                    </div>
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                    <div class="citation">
+                        <p>Steve and Jan Curran</p>
+                        <a href="#!">Swansea Heads</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("myslides");
+                    for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; } slideIndex++; if (slideIndex >
+                        slides.length) { slideIndex = 1 }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </article>
     </main>
 </body>
 
