@@ -391,12 +391,16 @@ a:hover {
 }
 
 .contact > * {
-  grid-column: span 3;
+  grid-column: span 3; 
 } 
 
 .contact__text {
   background: var(--pantone);
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact__text > * {
@@ -404,10 +408,10 @@ a:hover {
   border: 1px solid red;
 } 
 
-.action-link {
-  color: var(--black);
-  margin: 0;
+.action-link > * {
+color: var(--black);
 }
+
 
 .contact__img {
   border: 1px solid green;
