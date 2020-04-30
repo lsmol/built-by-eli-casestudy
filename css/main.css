@@ -98,7 +98,7 @@ h4 {
   
 
   /* atoms */
-.view-project {
+.action-link {
   display: flex;
   padding: 0;
 }
@@ -299,14 +299,21 @@ a:hover {
   display: flex;
   justify-content: start;
   align-items: center;
+ 
 }
-
-.renovations__text {
-  padding-left: 7rem;
+.reverse {
+  flex-direction: row-reverse;
+}
+.renovations__img {
+  padding: 5rem;
+}
+.renovations__text { 
+ padding: 5rem;
   line-height: 1.3;
+ 
 }
 
-.view-project {
+.action-link {
   padding: 1em 0;
 }
 .recent-project {
@@ -380,6 +387,7 @@ a:hover {
 .contact {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+ 
 }
 
 .contact > * {
@@ -388,24 +396,38 @@ a:hover {
 
 .contact__text {
   background: var(--pantone);
+  border: 1px solid red;
 }
 
 .contact__text > * {
+  color: var(--black);  
   border: 1px solid red;
-  color: var(--black);
 } 
 
+.action-link {
+  color: var(--black);
+  margin: 0;
+}
+
 .contact__img {
-  border: 1px solid blue;
+  border: 1px solid green;
   background: palegreen;
 }
+
 /*
 .contact__img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -10;
   object-fit: cover;
 } */
+
+/* back to top link */
+
+.backtotop {
+border: 1px solid blue;
+text-align: center;
+}
