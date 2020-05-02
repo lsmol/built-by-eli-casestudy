@@ -442,6 +442,7 @@ text-align: center;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   font-size: 0.8em;
+  gap: 1rem;
 }
 
 
@@ -458,11 +459,17 @@ input {
   border: none;
 }
 
+.footer-list a {
+  line-height: 1.8;
+}
+
 .footer-info > * {
-  border: 1px solid red;
-  display: flex;
-  justify-content: inherit;
-  align-items: center;
+  max-width: 30rem;
+display: flex; 
+justify-content: space-around;
 font-size: 0.8em;
 color: var(--light-grey);
 }
+
+
+
