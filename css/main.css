@@ -50,7 +50,9 @@
 	overflow: auto;
 }
 
-.sidebar-nav
+.sidebar-nav__list {
+  padding: 1rem;
+}
 
     /*headings */
   h1, h2, h3, h4 {
