@@ -40,7 +40,6 @@
   /*sidebar */
 
 .sidebar-nav {
-  border: 1px solid red;
   position: fixed;
 	max-width: 200px;
 	height: 100%;
@@ -48,6 +47,11 @@
 	top: 0;
 	left: 0;
 	overflow: auto;
+}
+
+.sidebar-nav > * {
+  padding: 1rem;
+  font-size: 0.8em;
 }
 
 .sidebar-nav__list {
@@ -145,7 +149,6 @@
    color: var(--black);
   }
   
-  
   .button-bun {
    display: inline-block;
    background: transparent;
@@ -157,13 +160,13 @@
    width: 30px;
   }
   
-  
   .nav-list {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     padding: 0;  
   }
+
   .nav-list a {
     display: flex;
     flex: 1;
@@ -423,20 +426,8 @@
   
   
   .contact__img {
-    border: 1px solid red;
     background: palegreen;
   }
-  
-  /*
-  .contact__img {
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -10;
-    object-fit: cover;
-  } */
   
   /* back to top link */
   
@@ -461,7 +452,7 @@
     list-style: none;
     padding: 0;
   }
-  /*remember to add background to input*/
+
   input {
     width: 100%;
     padding: 15px 15px 15px 0;
