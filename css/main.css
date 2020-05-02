@@ -328,9 +328,9 @@
     margin: auto;
     text-align: center;
   }
-  /*check value center*/
+  
   .myslides {
-    
+    text-align: center;
     padding: 0;
     margin: 0;
   }
@@ -437,7 +437,9 @@
   
   /*footer */
   
-  
+  .footer {
+    background: black;
+  }
   .footer-nav {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -458,10 +460,16 @@
     display: inline-block;
     border: none;
     border-bottom: 1px solid var(--light-grey);
+    background: black;
   }
   
   .footer-list a {
     line-height: 1.8;
+    color: white;
+  }
+
+  .footer-list a:hover {
+    color: var(--light-grey);
   }
   
   .footer-info > * {
@@ -472,6 +480,16 @@
   color: var(--light-grey);
   }
   
+  .footer-info a:hover {
+    color: white;
+  }
   
+  .conct a:hover {
+    color: white;
+  }
+
+  .title {
+    color: white;
+  }
   
   
