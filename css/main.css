@@ -215,6 +215,7 @@ a:hover {
   display: inline-block;
   background: transparent;
   padding-left: 2rem;
+  margin: 0 2rem;
   border: 0.1rem solid var(--black);
   border-right: none;
   border-left: none; 
@@ -396,7 +397,6 @@ a:hover {
 
 .contact__text {
   background: var(--pantone);
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -414,7 +414,7 @@ color: var(--black);
 
 
 .contact__img {
-  border: 1px solid green;
+  border: 1px solid red;
   background: palegreen;
 }
 
@@ -450,13 +450,14 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+/*remember to add background to input*/
 input {
   width: 100%;
   padding: 15px 15px 15px 0;
   margin: 5px 0 22 0;
   display: inline-block;
   border: none;
+  border-bottom: 1px solid var(--light-grey);
 }
 
 .footer-list a {
