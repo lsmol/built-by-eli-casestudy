@@ -1,0 +1,14 @@
+
+<svg width="31px" height="84px" viewBox="0 0 31 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g data-id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g data-id="Home-(1770px)" transform="translate(-1710.000000, -786.000000)">
+            <rect fill="" x="0" y="0" width="1770" height="6317"></rect>
+            <g data-id="Header" stroke="#FFFFFF">
+                <g data-id="Buttons/Large-Arrow/White" transform="translate(1710.000000, 786.000000)">
+                    <polyline data-id="Line-4" stroke-width="0.9375" fill-rule="nonzero" transform="translate(15.500000, 68.500000) scale(1, -1) rotate(-225.000000) translate(-15.500000, -68.500000) " points="5 58 5 79 26 79"></polyline>
+                    <path d="M15.5,7.10542736e-15 L15.5,83.5" data-id="Line-5" stroke-width="1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
