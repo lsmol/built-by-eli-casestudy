@@ -25,39 +25,20 @@
         font-weight: 300;
         color: var(--light-grey);
         line-height: 1.4;
-        font-size: 1.1em;
+        font-size: 1.3em;
     }
   
     .component {
       margin-bottom: 6rem;
-      position: relative;
+      position: relative
     }
   
-    .container {
-      max-width: 50rem;
-      margin: auto;
-    }
-  /*sidebar */
+  .container {
+    max-width: 72rem;
+    margin: auto;
+  }
 
-.sidebar-nav {
-  position: fixed;
-	max-width: 200px;
-	height: 100%;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	overflow: auto;
-}
-
-.sidebar-nav > * {
-  padding: 1rem;
-  font-size: 0.8em;
-}
-
-.sidebar-nav__list {
-  padding: 1rem;
-}
-
+  
     /*headings */
   h1, h2, h3, h4 {
     font-weight: 300;
@@ -139,13 +120,14 @@
   
   /*header */
   
+  /*
   .component__code-top {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background: var(--brick);
    font-size: 0.8em;
-   margin-top: 1em;
+   margin: 1em;
    color: var(--black);
   }
   
@@ -210,24 +192,27 @@
     background: var(--black);
     color: white;
   }
+  */
   
   /*header simplified */
-  .component__code-top--simplified {
+
+ 
+  .main-nav .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: var(--brick);
+    align-items: center;  
+    background: var(--brick); 
    font-size: 1.3em;
-   margin-top: 1em;
    color: var(--black);
   }
-  
+
+  .container .main-nav {
+    margin: 0;
+  }
   
   .button-bun--simplified {
     display: inline-block;
-    background: transparent;
-    padding-left: 2rem;
-    margin: 0 2rem;
+    background: transparent; 
     border: 0.1rem solid var(--black);
     border-right: none;
     border-left: none; 
@@ -239,7 +224,7 @@
     color: var(--black);
     font-weight: 400;
     font-size: 1em;
-    padding-right: 2rem;
+ 
   }
   
   .logo-simplified a {
@@ -254,7 +239,7 @@
     justify-content: space-between;
     flex: 1;
     align-items: flex-end;
-    margin-top: 2rem;
+ 
   }
   
   .hero__background {
@@ -281,7 +266,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end; 
-    padding: 2rem;
+   
   }
   
   /* main section starts here */
