@@ -71,7 +71,7 @@
       padding: 1rem;
       margin-bottom: 6rem;
     }
-    
+
   .component__code {
     padding: 1rem;
   }
@@ -193,7 +193,7 @@
   /*header simplified */
 
  
-  .main-nav .container {
+  .main-nav .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -202,9 +202,7 @@
    color: var(--black);
   }
 
-  .container .main-nav {
-    margin: 0;
-  }
+  
   
   .button-bun--simplified {
     display: inline-block;
