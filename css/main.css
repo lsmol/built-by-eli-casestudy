@@ -39,7 +39,10 @@
     max-width: 50rem;
     margin: auto;
   }
-
+.homepge-container {
+  max-width: 72rem;
+  margin: auto;
+}
 
    /*sidebar */
 
