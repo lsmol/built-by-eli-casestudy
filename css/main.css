@@ -219,7 +219,7 @@
   /*header simplified */
 
  
-  .main-nav .wrapper {
+  .component__code-top--simplified {
     display: flex;
     justify-content: space-between;
     align-items: center;  
