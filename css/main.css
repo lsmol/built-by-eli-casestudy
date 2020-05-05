@@ -29,12 +29,32 @@
     }
   
   
-  
   .container {
     max-width: 72rem;
     margin: auto;
   }
 
+
+   /*sidebar */
+
+.sidebar-nav {
+  position: fixed;
+	max-width: 200px;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow: auto;
+}
+
+.sidebar-nav > * {
+  padding: 1rem;
+  font-size: 0.8em;
+}
+
+.sidebar-nav__list {
+  padding: 1rem;
+}
   
     /*headings */
   h1, h2, h3, h4 {
@@ -116,7 +136,7 @@
   
   /*header */
   
-  /*
+  
   .component__code-top {
     display: flex;
     justify-content: space-evenly;
@@ -188,7 +208,7 @@
     background: var(--black);
     color: white;
   }
-  */
+  
   
   /*header simplified */
 
@@ -202,7 +222,6 @@
    color: var(--black);
   }
 
-  
   
   .button-bun--simplified {
     display: inline-block;
