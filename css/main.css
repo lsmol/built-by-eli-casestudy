@@ -28,7 +28,13 @@
         font-size: 1.3em;
     }
   
+  /*this is for library's width*/
   
+  .component {
+    margin-bottom: 6rem;
+    position: relative;
+  }
+
   .container {
     max-width: 50rem;
     margin: auto;
