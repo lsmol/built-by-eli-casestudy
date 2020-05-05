@@ -68,16 +68,15 @@
     }
     
     .component__img {
-      border: 1px solid #ccc;
       padding: 1rem;
       margin-bottom: 6rem;
     }
+    
+  .component__code {
+    padding: 1rem;
+  }
   
-  
-    .component__code {
-      border: 1px solid #ccc;
-      padding: 1rem;
-    }
+   
   
     .artlink {
       text-decoration: none;
