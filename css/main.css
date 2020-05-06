@@ -104,9 +104,7 @@
   .component__code {
     padding: 1rem;
   }
-  
    
-  
     .artlink {
       text-decoration: none;
       color: var(--light-grey); 
@@ -257,11 +255,6 @@
   .component__code--hero {
     position: relative;
     height: 600px;
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    align-items: flex-end;
- 
   }
   
   .hero__background {
@@ -282,13 +275,6 @@
     color: white;
     font-size: 1.8em;
     line-height: 1.3;
-  }
-  
-  .hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end; 
-   
   }
   
   /* main section starts here */
@@ -312,6 +298,9 @@
     position: relative;
     padding: 1.5rem;  
   }
+
+
+
   
   /*recent project section */
   
@@ -504,17 +493,39 @@
   **/
 
   .container-homepage {
-  max-width: 75rem;
+  max-width: 70rem;
   margin: auto;
   }
 
   .site-header {
     background: var(--brick);
+    border: 1px solid red;
   }
 
-  .component__code--hero > *{
-    border: 1px solid red;
-  
+  .component__code--hero { 
+   position: relative;
+  }
+
+  .component__code--hero > * {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 600px;
+  }
+
+  .homepage-hero__title{
+  font-size: 1.2em;
+  }
+
+  .homepage-hero__h1 {
+  font-size: 2.9em;
+  line-height: 1.2;
+  margin-top: 13px;
+  }
+
+  .homepage__home-arrow {
+    height: 177px;
+    width: 100px;
   }
 
   .homepage__code--art {
@@ -523,4 +534,26 @@
     gap: 3rem;
     position: relative;
     padding: 1rem;  
+  }
+
+  .intro-text {
+    font-size: 2em;
+    line-height: 1.3;
+  }
+
+  .articles p {
+  margin-bottom: 5em;
+  }
+
+  .projects {
+    margin: 115px 0;
+  }
+
+  .slides {
+    font-size: 2em;
+  }
+
+  .homepage-backtotop {
+    font-size: 1.3em;
+    text-align: center;
   }
