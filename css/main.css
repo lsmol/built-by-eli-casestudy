@@ -499,4 +499,28 @@
     color: white;
   }
   
+  /**
+  home page
+  **/
+
+  .container-homepage {
+  max-width: 75rem;
+  margin: auto;
+  }
+
+  .site-header {
+    background: var(--brick);
+  }
+
+  .component__code--hero > *{
+    border: 1px solid red;
   
+  }
+
+  .homepage__code--art {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    position: relative;
+    padding: 1rem;  
+  }
