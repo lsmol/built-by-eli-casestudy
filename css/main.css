@@ -498,6 +498,10 @@
   .site-header {
     background: var(--brick);
     border: 1px solid red;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100%;
   }
 
   .component__code--hero { 
