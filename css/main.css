@@ -553,6 +553,18 @@ display: block;
     margin: 115px 0;
   }
 
+  .homepage-citation {
+    padding: 1rem;
+  }
+  .homepage-citation > * {
+    font-size: 0.6em;
+   display: block;
+   line-height: 0.7em;
+  }
+  .homepage-citation .text {
+    color: var(--black);
+  }
+
   .slides {
     font-size: 2em;
   }
