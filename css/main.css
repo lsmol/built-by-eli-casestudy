@@ -299,8 +299,6 @@
     padding: 1.5rem;  
   }
 
-
-
   
   /*recent project section */
   
@@ -422,7 +420,7 @@
   
   
   .contact__img {
-    background: palegreen;
+    background: var(--pantone);
   }
   
   /* back to top link */
@@ -536,6 +534,12 @@
     padding: 1rem;  
   }
 
+  @media (max-width: 40rem) {
+    .homepage__code--art {
+display: block;
+    }
+}
+  
   .intro-text {
     font-size: 2em;
     line-height: 1.3;
