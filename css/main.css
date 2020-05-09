@@ -36,13 +36,14 @@
   }
 
   .container {
-    max-width: 50rem;
+    max-width: 45rem;
     margin: auto;
   }
-.homepge-container {
-  max-width: 72rem;
-  margin: auto;
-}
+
+  .homepge-container {
+    max-width: 72rem;
+    margin: auto;
+  }
 
    /*sidebar */
 
@@ -97,11 +98,11 @@
     }
     
     .component__img {
-      padding: 1rem;
-      margin-bottom: 6rem;
+      padding: 1rem;      
     }
 
   .component__code {
+    border: 1px solid #ccc;
     padding: 1rem;
   }
    
@@ -148,9 +149,8 @@
     justify-content: space-evenly;
     align-items: center;
     background: var(--brick);
-   font-size: 0.8em;
-   margin: 1em;
-   color: var(--black);
+   font-size: 0.6em;
+   color: black;
   }
   
   .button-bun {
@@ -192,7 +192,7 @@
   .logo {
     color: var(--black);
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   
   .logo a {
@@ -266,6 +266,7 @@
     object-fit: cover;
   }
   
+ 
   .hero-content > * {
    color: white; 
   }
@@ -296,6 +297,7 @@
     gap: 1rem;
     position: relative;
     padding: 1.5rem;  
+    border: 1px solid #ccc;
   }
 
   
